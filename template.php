@@ -17,6 +17,17 @@ function wisdix_css_alter(&$css) {
   }
 }
 
+
+/**
+ * Implementation of template_preprocess_html().
+ */
+function wisdix_preprocess_html(&$variables) { 
+  
+  radix_preprocess_html($variables);
+  if (user_access('access administration menu')){$variables['classes_array'][] = 'admin-menu';}
+  dpm($variables);
+}
+
 /**
  * Implements hook_module_implements_alter().
  * Remove panopoly_core which uses this alter to set it's own jquery_ui theme

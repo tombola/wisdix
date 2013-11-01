@@ -4,9 +4,10 @@
 
 #mini-panel-oa_toolbar_panel {
   padding: 0 10px;
-  margin-top: 20px;
 }
-
+body.admin-menu #mini-panel-oa_toolbar_panel {
+  margin-top:20px
+}
 // Toolbar Buttons
 .pane-oa-widgets-visibility-toolbar #oa_visibility_toolbar,
 #oa_favorites,

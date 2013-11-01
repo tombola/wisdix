@@ -16607,7 +16607,6 @@ html.js input.throbbing {
 .selby-flipped-column-inner {
   margin-right: 0;
   margin-left: 20px;
-  margin-left: 20px;
 }
 
 .clear-both {
@@ -16949,7 +16948,6 @@ ul.tabs > li > a, ul.action-links > li > a {
 }
 
 .region-footer {
-  background-image: url("../../logo.png");
   background-repeat: no-repeat;
   background-position: 1% center;
 }
@@ -16971,6 +16969,9 @@ ul.tabs > li > a, ul.action-links > li > a {
 
 #mini-panel-oa_toolbar_panel {
   padding: 0 10px;
+}
+
+body.admin-menu #mini-panel-oa_toolbar_panel {
   margin-top: 20px;
 }
 
@@ -17516,6 +17517,11 @@ body.oa-login div.content .oa-pane .panel-pane .password-reset {
 
 body.oa-login #user-login-panel .oa-pane {
   top: 115px;
+}
+
+.oa-pane .pane-title {
+  background-color: transparent;
+  background: transparent;
 }
 
 #node-edit .panel-pane.pane-node-field-oa-group-ref,

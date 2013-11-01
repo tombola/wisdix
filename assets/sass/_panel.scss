@@ -1,6 +1,12 @@
 // Page
 // Styles for panels
 // --------------------------------------------------
+
+.oa-pane .pane-title {
+  background-color: transparent;
+  background: transparent;
+}
+
 #node-edit .panel-pane.pane-node-field-oa-group-ref,
 #node-edit .panel-pane.pane-node-field-oa-team-ref,
 #node-edit .panel-pane.pane-node-field-oa-user-ref {
