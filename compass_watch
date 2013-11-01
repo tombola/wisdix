@@ -1,0 +1,4 @@
+#!/bin/bash
+pushd "%~dp0";
+compass watch;
+popd;

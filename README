@@ -1,0 +1,17 @@
+TO EDIT THIS THEME
+==================
+
+$ compass watch
+
+
+
+DEPENDENCIES
+============
+
+This theme uses SASS to render the css files
+
+it also uses compass ruby gem and (i think) needs compass_radix to be installed
+
+http://net.tutsplus.com/tutorials/other/mastering-sass-lesson-1/
+http://compass-style.org/install/
+http://rubygems.org/gems/compass_radix/versions/0.0.7
